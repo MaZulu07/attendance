@@ -4,7 +4,7 @@ This program allows workers to sign attendance, view attendance records, and exi
 
 ---
 
-## Features
+## 📌Features
 - Sign attendance with **worker name and ID**
 - Display all attendance records with timestamps
 - Exit the program gracefully
@@ -12,7 +12,7 @@ This program allows workers to sign attendance, view attendance records, and exi
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 - **Language:** Java  
 - **Core Concepts:** OOP, Collections (List), LocalDateTime, Scanner  
 
@@ -23,3 +23,15 @@ This program allows workers to sign attendance, view attendance records, and exi
 - **Worker.java:** Represents a worker with name and ID    
 - **Attendance.java:** Represents an attendance record with timestamp    
 - **AttendanceRegister.java:** Manages attendance records (add, display)   
+
+---
+
+## 💻 How to Run
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/yourusername/attendance-register.git  
+   cd attendance-register  
+2. Compile the Java files:  
+   javac Main.java Worker.java Attendance.java AttendanceRegister.java  
+3. Run the program:  
+   java Main  
